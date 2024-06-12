@@ -56,7 +56,6 @@ export const IconContainer = styled.div `
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 3rem;
 `
 
 export const ButtonContainer = styled.div`
@@ -89,7 +88,7 @@ export const ButtonContainer = styled.div`
     }
 `
 
-export const ResultContainer = styled.p`
+export const ResultContainer = styled.p `
     padding: 0.4rem 1.8rem;
     background: ${props => props.theme.feedbackButtonColor};
     width: fit-content;
